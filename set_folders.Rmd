@@ -1,0 +1,71 @@
+---
+title: "set_folders"
+author: "Daniel Vogel"
+date: '2022-11-10'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## set_folders for MARLOWE  
+
+This is a temporary file that initializes folder variables.  This code needs to be added to the templates.
+
+```{r set_folders}
+    
+    #Choose a directory to write the results from various steps in the pipeline
+    #results_folder <- choose.dir(caption = "Select parent directory for generated MARLOWE output folders.")
+    results_folder <- getwd()
+    
+    #creating folders to hold results from various parts in the pipeline
+    
+    #folder to hold denovo tag dataframes
+    tag_output_folder <- file.path(
+      normalizePath(results_folder, winslash = "/"),
+      "denovo_tags",
+      fsep = "/"
+    )
+    
+    if(!dir.exists(tag_output_folder)){
+      dir.create(tag_output_folder)
+    }
+    
+    
+    #folder to write raw tag-peptide-protein matches and count matrices
+    database_query_output_folder <- file.path(
+      normalizePath(results_folder, winslash = "/"),
+      "raw_matches_strong_counts",
+      fsep = "/"
+    )
+    
+    if(!dir.exists(database_query_output_folder)){
+      dir.create(database_query_output_folder)
+    }
+    
+    
+    #folder to write filtered count matrices
+    filtered_counts_folder <- file.path(
+      normalizePath(results_folder, winslash = "/"),
+      "filtered_counts",
+      fsep = "/"
+    )
+    
+    if(!dir.exists(filtered_counts_folder)){
+      dir.create(filtered_counts_folder)
+    }
+    
+    
+    #folder to save taxonomic scores
+    taxonomic_scores_output_folder <- file.path(
+      normalizePath(results_folder, winslash = "/"),
+      "taxonomic_scores",
+      fsep = "/"
+    )
+    
+    if(!dir.exists(taxonomic_scores_output_folder)){
+      dir.create(taxonomic_scores_output_folder)
+    }
+```
+

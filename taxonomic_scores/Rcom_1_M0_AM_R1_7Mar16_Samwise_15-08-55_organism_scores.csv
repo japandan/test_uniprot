@@ -1,0 +1,3 @@
+kegg_id,organism_id,kegg_org_code,organism_name,species_name,genus_name,peptide_count,protein_count,strong_peptide_count,taxonomic_group,organism_hits,group_hits,orgscores,pos_scores
+U6565,5,6565,Crassostrea virginica,virginica,Crassostrea,876976,33719,805672,5,1,1,1,1
+U3988,6,3988,Ricinus communis,communis,Ricinus,630447,31219,520219,4,56,56,56,56

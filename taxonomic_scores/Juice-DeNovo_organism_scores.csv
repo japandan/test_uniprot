@@ -1,0 +1,8 @@
+kegg_id,organism_id,kegg_org_code,organism_name,species_name,genus_name,peptide_count,protein_count,strong_peptide_count,taxonomic_group,organism_hits,group_hits,orgscores,pos_scores
+U9913,1,9913,Bos taurus,taurus,Bos,652649,23844,554285,1,6,68,45.29537555246503,45.80476777184997
+U85681,2,85681,Citrus clementina,clementina,Citrus,586056,24934,482274,2,130,131,123.5627900499811,121.68698546000927
+U2711,3,2711,Citrus sinensis,sinensis,Citrus,572368,28128,471745,1,62,68,45.29537555246503,45.80476777184997
+U29159,4,29159,Crassostrea gigas,gigas,Crassostrea,687216,25998,624744,2,1,131,123.5627900499811,121.68698546000927
+U6565,5,6565,Crassostrea virginica,virginica,Crassostrea,876976,33719,805672,5,4,4,-8.651388619188442,0
+U3988,6,3988,Ricinus communis,communis,Ricinus,630447,31219,520219,4,28,28,28,28
+U8040,8,8040,Salvelinus namaycush,namaycush,Salvelinus,696618,35973,599782,6,4,4,4,4

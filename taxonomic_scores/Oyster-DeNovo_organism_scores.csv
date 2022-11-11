@@ -1,0 +1,6 @@
+kegg_id,organism_id,kegg_org_code,organism_name,species_name,genus_name,peptide_count,protein_count,strong_peptide_count,taxonomic_group,organism_hits,group_hits,orgscores,pos_scores
+U9913,1,9913,Bos taurus,taurus,Bos,652649,23844,554285,1,6,6,6,5.999999999999704
+U29159,4,29159,Crassostrea gigas,gigas,Crassostrea,687216,25998,624744,2,47,47,-103.55287883114298,0
+U6565,5,6565,Crassostrea virginica,virginica,Crassostrea,876976,33719,805672,5,714,714,735.2052141619429,694.5016290706972
+U3988,6,3988,Ricinus communis,communis,Ricinus,630447,31219,520219,4,7,7,6.999999999999846,7
+U8040,8,8040,Salvelinus namaycush,namaycush,Salvelinus,696618,35973,599782,6,10,10,10,10

@@ -1,0 +1,4 @@
+kegg_id,organism_id,kegg_org_code,organism_name,species_name,genus_name,peptide_count,protein_count,strong_peptide_count,taxonomic_group,organism_hits,group_hits,orgscores,pos_scores
+U9913,1,9913,Bos taurus,taurus,Bos,652649,23844,554285,1,432,433,433,433
+U2711,3,2711,Citrus sinensis,sinensis,Citrus,572368,28128,471745,1,1,433,433,433
+U3988,6,3988,Ricinus communis,communis,Ricinus,630447,31219,520219,4,4,4,4,4
